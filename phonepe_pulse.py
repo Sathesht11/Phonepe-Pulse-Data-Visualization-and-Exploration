@@ -155,7 +155,7 @@ with geoMapVisual:
 
 # ------------------------------------User Mobile Brand analysis------------------------------------------------
 with UserBrandInfo:
-    st.subheader(':violet[User Device analysis->Statewise:]')
+    st.subheader(':yellow[User Mobile Brand Analysis by State:]')
     StateBar = st.selectbox('Please select State', stateTuple, index=10)
     yearBar = st.radio('Please select the Year:', yearTuple, horizontal=True)
     QuaterBar = st.radio('Please select the Quarter:', quaterTuple, horizontal=True)
