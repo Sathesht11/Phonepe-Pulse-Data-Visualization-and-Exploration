@@ -15,7 +15,6 @@ or JSON.
 ## Packages:
 * streamlit
 * pandas
-* pymongo
 * streamlit_lottie
 * mysql-connector-python
 * plotly-express
